@@ -1,5 +1,7 @@
 <?php
-
+// The user running this code should have the following permission at least
+//  1. S3ReadOnlyAccess
+//  2. RekognitionFullAccess
 require "./libs/aws.phar";
 use Aws\Rekognition\RekognitionClient;
 
